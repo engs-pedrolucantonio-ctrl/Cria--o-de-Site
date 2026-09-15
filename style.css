@@ -3,7 +3,7 @@
 }
 
 header{
-    background-color: rgb(47, 47, 106);
+    background-color: rgb(27, 82, 36);
     color: aliceblue;
     padding: 20px 0;
     display: flex;
@@ -37,7 +37,7 @@ nav{
 .card{
     display: flex;
     width: 300px;
-    border: 2px solid rgb(47,47,106);
+    border: 2px solid rgb(27, 82, 36);
     flex-direction: column;
     background-color: aliceblue;
     border-radius: 14px;
@@ -84,7 +84,7 @@ nav{
 }
 
 .botao-card {
-    background-color: rgb(47, 47, 106);
+    background-color: rgb(27, 82, 36);
     width: 60%;
     margin: 10px auto;
     padding: 5px;
