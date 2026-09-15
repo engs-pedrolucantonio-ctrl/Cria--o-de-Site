@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+}
+
+header{
+    background-color: rgb(47, 47, 106);
+    color: aliceblue;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+h3{
+    margin-bottom: 20px; /* Comentário */
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+a:hover{
+    color: rgb(180, 220, 255);
+}
+
+nav{
+    border: 1px solid aliceblue;
+    padding: 0 10px;
+}
+
+.card{
+    display: flex;
+    width: 300px;
+    border: 2px solid rgb(47,47,106);
+    flex-direction: column;
+    background-color: aliceblue;
+    border-radius: 14px;
+}
+
+
+.img-card{
+    width: 200px;
+    max-width: 90%;
+    height: auto;
+    border: 2px solid rgb(180, 220, 255);
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
+    aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.titulo {
+        color: rgb(47, 47, 106);
+        text-align: center;
+        margin: 10px 0;
+}
+
+#produtos{
+    display: flex;
+    background-color: rgb(47, 47, 106);
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    gap: 20px;
+    border-radius: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+}   
+
+.titulo-card {
+    color: rgb(47, 47, 106);
+    margin-left: 10px;
+}
+
+.texto-card {
+    margin: 5px 0 0 20px;
+}
+
+.botao-card {
+    background-color: rgb(47, 47, 106);
+    width: 60%;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.img {
+    display: flex;
+    height: 200px;
+    margin: auto
+}
+
+.conteúdo {
+    display: flex;
+    flex-direction: row;
+}
+
+.texto {
+    margin: auto;
+    width: 50%;
+}
+
+.cola {
+    height: 200px;
+    margin-left:200px;
+}
